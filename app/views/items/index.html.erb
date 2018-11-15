@@ -4,4 +4,5 @@
 <ul>
   <% @items.each do |item| %>
   <%= link_to item.name, department_item_path(@department, item) %>
+  <% end %>
 </ul>
